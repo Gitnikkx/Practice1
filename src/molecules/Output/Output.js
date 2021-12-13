@@ -3,150 +3,137 @@ import { Box, Flex, Heading, Title , Grid ,Card } from "../../atoms";
 import { Profile } from "../Profile";
 import Img from "../../assets/img.png";
 import Img2 from "../../assets/img2.png";
+import Img3 from "../../assets/img3.png";
+import Img4 from "../../assets/img4.png";
 
 export const Output = () => {
     return (
         <>
-            <Grid   gridTemplateRows="auto" gridGap={80} gridTemplateColumns="1fr 1fr 1fr"  pl="80px"  bg="primary.3">
+            <Grid   gridTemplateRows="auto" gridGap={30} gridTemplateColumns="1fr 1fr 1fr"  pl="80px"  bg="primary.3">
 
                     <Card>
-                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img} alt="" width = "100%" border-radius="5px"/>
                         <Box>
-                            <Profile name="AAAA" designation="CTO"></Profile>
+                            <Profile name="AAAA" designation="1"></Profile>
                         </Box>
                     </Card>
 
                     <Card>
-                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                           <Profile name="BBB" designation="CTO"></Profile>
+                           <Profile name="BBB" designation="2"></Profile>
                         </Box>
                     </Card>
 
                     <Card>
                     <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                     <Box>
-                        <Profile name="CCC" designation="CEO"></Profile>
+                        <Profile name="CCC" designation="3"></Profile>
                     </Box>
                     </Card>
 
                     <Card>
-                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="DDD" designation="CTO"></Profile>
-                        </Box>
-                    </Card>
-                    <Card>
-                    <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                    <Box>
-                        
-                        <Profile name="EEE" designation="CEO"></Profile>
+                            <Profile name="DDD" designation="4"></Profile>
                         </Box>
                     </Card>
                     <Card>
                     <img src={Img} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="FFF" designation="CTO"></Profile>
+                    <Box>
+                        
+                        <Profile name="EEE" designation="5"></Profile>
                         </Box>
                     </Card>
                     <Card>
-                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                    <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
+                        <Box>
+                            <Profile name="FFF" designation="6"></Profile>
+                        </Box>
+                    </Card>
+                    <Card>
+                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                             <Box>
-                                <Profile name="GGG" designation="CTO"></Profile>
+                                <Profile name="GGG" designation="7"></Profile>
                             </Box>
                         </Card>
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
                             <Box>
-                                <Profile name="HHHH" designation="CEO"></Profile>
+                                <Profile name="HHHH" designation="8"></Profile>
                             </Box>
                         </Card>
             </Grid>
 
 
 
-
-
-            
-
-            <Flex  pl ="65px" pt="40px" flexDirection="row" flexWrap="wrap"  alignItems="center" bg="primary.5">
-                <Box width="30%" p="15px" py="20px">
+            <Flex  pl ="70px" pt="40px" flexDirection="row" flexWrap="wrap"  alignItems="center" bg="primary.5">
+                <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="III" designation="CEO"></Profile>
+                        <Profile name="III" designation="1"></Profile>
                         </Box>
                     </Card>
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="JJJ" designation="CEO"></Profile>
-                        </Box>
-                    </Card>
-
-                </Box>
-                <Box width="30%" p="15px" py="20px">
-                    <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="KKK" designation="CEO"></Profile>
-                        </Box>
-                    </Card>
-
-                </Box>
-                <Box width="30%" p="15px" py="20px">
-                    <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="LLL" designation="CEO"></Profile>
+                        <Profile name="JJJ" designation="2"></Profile>
                         </Box>
                     </Card>
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="20%" p="15px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="MMM" designation="CEO"></Profile>
+                        <Profile name="KKK" designation="3"></Profile>
                         </Box>
                     </Card>
-
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="NNN" designation="CEO"></Profile>
+                        <Profile name="LLL" designation="4"></Profile>
                         </Box>
                     </Card>
-
                 </Box>
-                <Box width="30%" pl="150px" py="20px">
+                <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="OOO" designation="CEO"></Profile>
+                        <Profile name="MMM" designation="5"></Profile>
                         </Box>
                     </Card>
-
                 </Box>
-                <Box width="30%" p="75px" py="20px">
+                <Box width="20%" p="15px" py="20px">
+                    <Card >
+                        <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
+                        <Box>
+                        <Profile name="NNN" designation="6"></Profile>
+                        </Box>
+                    </Card>
+                </Box>
+                <Box width="20%" pl="15px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="PPP" designation="CEO"></Profile>
+                        <Profile name="OOO" designation="7"></Profile>
                         </Box>
                     </Card>
-
+                </Box>
+                <Box width="20%" p="15px" py="20px">
+                    <Card >
+                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
+                        <Box>
+                        <Profile name="PPP" designation="8"></Profile>
+                        </Box>
+                    </Card>
                 </Box>
 
             </Flex>
-
-
-
-
-
 
         </>
     );

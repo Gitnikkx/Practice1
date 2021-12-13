@@ -4,7 +4,7 @@ import { Box, Card, Heading, Title } from "../../atoms";
 
 export const Profile = ({ name, designation }) => {
   return (
-    <Box p="2px 16px">
+    <Box p="0px 14px" align="center">
       <Heading  name={name}  />
       
 

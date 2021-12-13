@@ -11,7 +11,6 @@ function App() {
        <Output/> 
       </Box>
     </ThemeProvider>
-
   );
 }
 
