@@ -131,7 +131,7 @@ export const Output = () => {
                     </Card>
 
                 </Box>
-                <Box width="30%" p="80px" py="20px">
+                <Box width="30%" p="75px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
