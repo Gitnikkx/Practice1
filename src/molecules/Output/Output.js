@@ -9,19 +9,21 @@ import Img4 from "../../assets/img4.png";
 export const Output = () => {
     return (
         <>
-            <Grid   gridTemplateRows="auto" gridGap={30} gridTemplateColumns="1fr 1fr 1fr"  pl="80px"  bg="primary.3">
+            <Grid gridTemplateRows="auto" gridGap={20} gridTemplateColumns="1fr 1fr 1fr"  pl="80px"  backgroundImage="url('http://www.vangelista.net/LVA_website2/Professional_Background_files/shapeimage_2.png')">
 
                     <Card>
-                        <img src={Img} alt="" width = "100%" border-radius="5px"/>
-                        <Box>
+                        <Box pb="10px" bg="red">
+                            <img src={Img} alt="" width = "100%" border-radius="5px"/>
+                            <Box>
                             <Profile name="AAAA" designation="1"></Profile>
+                            </Box>
                         </Box>
                     </Card>
 
                     <Card>
                         <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                           <Profile name="BBB" designation="2"></Profile>
+                        <Profile name="BBB" designation="2"></Profile>
                         </Box>
                     </Card>
 
@@ -94,7 +96,7 @@ export const Output = () => {
                 </Box>
                 <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
                         <Profile name="LLL" designation="4"></Profile>
                         </Box>
@@ -126,7 +128,7 @@ export const Output = () => {
                 </Box>
                 <Box width="20%" p="15px" py="20px">
                     <Card >
-                        <img src={Img4} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img3} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
                         <Profile name="PPP" designation="8"></Profile>
                         </Box>
