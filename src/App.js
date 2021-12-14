@@ -1,14 +1,14 @@
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
-import {Header} from "./molecules/Header/Header";
+import { Title } from "./atoms";
 import {Box} from "./atoms/Box/Box";
-import {Output} from  "./molecules/Output/Output"
+import {Jamsfy} from "./molecules/Jamsfy/Jamsfy";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Box>
-       <Output/> 
+       <Jamsfy/>
       </Box>
     </ThemeProvider>
   );
