@@ -59,7 +59,17 @@ export const Box = styled.div`
     scCss`
         flex-direction: ${flexDirection};
       `}
-      
+  ${({ placeItems }) =>
+    placeItems &&
+    scCss`
+        place-items: ${placeItems};
+      `}
+   ${({fontSize }) =>
+    fontSize &&
+    scCss`
+          font-size: ${fontSize};
+        `}
+
   &:hover {
     ${({ _hover }) => _hover && systemCss(_hover)}
   }
