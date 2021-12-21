@@ -1,53 +1,38 @@
 import React from "react";
-import { Box, Flex, Heading, Title, Grid, Card } from "../../atoms";
-import Img from "../../assets/img.png";
-import Img2 from "../../assets/img2.png";
-import Img3 from "../../assets/img3.png";
+import { Gradient, Box, Flex, Heading, Title, Grid, Card } from "../../atoms";
+import { Navbar } from "../Navbar/Navbar";
+
+
+
 export const Jamsfy = () => {
    return (
       <>
-         <Grid p="25px 50px" gridTemplateColumns='1fr 1.4fr' gridGap={40}>
-            <Box pt="30px">
-               <Title>AWARDS & RECOGNITION</Title>
-               <Flex alignItems="stretch"><Heading name="This is how we have been recognised in the industry."></Heading></Flex>
+
+         <Box zIndex="1"><Navbar></Navbar></Box>
+         <Box backgroundImage="url(/Img1.png)" backgroundSize="cover">
+            <Box pt="149px" lineHeight="1.8rem" position="relative" marginRight="auto" marginLeft="auto" fontSize="1.1rem" width="fit-content"><Gradient>OUR MISSION</Gradient></Box>
+
+            <Box lineHeight="5rem" fontSize="4rem" position="relative" marginTop="1.2rem" marginLeft="auto" marginRight="auto" textAlign="center" maxWidth="62.5rem" fontFace="AxiformaRegular" color="#ffffff" >We are here to scale your ideas with our latest tech knowledge.</Box>
+
+            <Box position="relative" fontSize="1.2rem" maxWidth="48.50rem" marginLeft="auto" marginRight="auto" color="#ffffff" fontFace="AxiformaLight" textAlign="center" pt="63px"> Our visions and mission is to scale the ideas of the company and the customers to fruition through the constant pursuit of excellence and providing 100% Customer satisfaction</Box>
+
+            <Box background="linear-gradient(to right, rgb(233, 56, 112) 0%, rgb(102, 41, 163) 80%)" textAlign="center" fontSize="2rem" position="relative" maxWidth="17rem" margin="auto" color="#ffffff" whiteSpace="nowrap" lineHeight="3.5rem" cursor="pointer" marginTop="65px" borderRadius="4px" transition="all 0.7s ease-in-out 0s" outline="none" fontFace="AxiformaBold" border="1px solid rgb(102, 41, 163)">Contact US</Box>
+
+            <Box fontWeight="600" marginTop="60px" position="relative" marginLeft="auto" marginRight="auto" width="fit-content" fontSize="1rem">
+               <Gradient>BRANDS THAT SCALED WITH US</Gradient>
             </Box>
-
-            <Grid pt="70px" gridTemplateColumns='auto' gridGap={40}>
-               <Grid gridGap={40} gridTemplateColumns="auto auto"><Card>
-                  <Box borderRadius="15px" pb="7px" pl="7px" pt="7px" pr="7px" height="20vh" width="49vh" bg="#fff">
-                     <img width="260px" height="130px" src={Img3} />
-                  </Box>
-                  <Box zIndex={1} top={40} height="3rem" width="3rem" background="linear-gradient(93.74deg, rgb(30, 117, 249) 0%, rgb(102, 41, 163) 103.04%)"
-                     position="absolute" right="-1.5rem" borderRadius="2rem">
-                  </Box>
-               </Card>
-                  <Box fontSize="30px" fontWeight="bold" width="fit-content" color="#454545">Start-Up India
-                     <Box fontWeight="lighter" fontSize="20px" width="fit-content" color="#454545">We have been recognized by Start-Up India initiative by the Government of India.</Box></Box>
-               </Grid>
-
-               <Grid gridGap={40} gridTemplateColumns="auto auto">  <Card>
-                  <Box borderRadius="15px" pb="7px" pl="7px" pt="7px" pr="7px" height="20vh" width="49vh" bg="#fff">
-                     <img width="242px" height="109px" src={Img2} />
-                  </Box>
-
-                  <Box zIndex={1} top={40} height="3rem" width="3rem" background="linear-gradient(93.74deg, rgb(30, 117, 249) 0%, rgb(102, 41, 163) 103.04%)"
-                     position="absolute" right="-1.5rem" borderRadius="2rem">
-                  </Box> </Card><Box fontSize="30px" fontWeight="bold" width="fit-content" color="#454545">Storyblok Case Study
-                     <Box fontWeight="lighter" fontSize="20px" width="fit-content" color="#454545">We got featured on Storyblok for one of their Case Study</Box> </Box> </Grid>
-               <Grid gridGap={40} gridTemplateColumns="auto auto">     <Card>
-                  <Box borderRadius="15px" pb="7px" pl="7px" pt="7px" pr="7px" height="20vh" width="49vh" bg="#fff">
-                     <img width="252px" height="129px" src={Img} />
-                  </Box>
-                  <Box zIndex={1} top={40} height="3rem" width="3rem" background="linear-gradient(93.74deg, rgb(30, 117, 249) 0%, rgb(102, 41, 163) 103.04%)"
-                     position="absolute" right="-1.5rem" borderRadius="2rem">
-                  </Box>     </Card><Box fontSize="30px" fontWeight="bold" width="fit-content" color="#454545">Tech Spark Tech 50
-                     <Box fontWeight="lighter" fontSize="20px" width="fit-content" color="#454545">We are proud to have been mentioned by Tech Spark in their Tech50</Box>
-                  </Box>
-
-               </Grid>
+            <Grid bg="transparent" gridTemplateColumns="1fr 1fr 1fr 1fr" marginLeft="auto" marginRight="auto" width="fit-content" marginTop="75px" >
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="75px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
+               <Box height="76px" width="130px"><img width="50%" height="50%" src="Elatior.png"></img></Box>
             </Grid>
 
-         </Grid>
+         </Box>
       </>
    );
-};
+}

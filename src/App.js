@@ -1,16 +1,19 @@
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
-import { Title } from "./atoms";
-import {Box} from "./atoms/Box/Box";
 import {Jamsfy} from "./molecules/Jamsfy/Jamsfy";
+import {About} from "./molecules/About/About";
+import {Timeline} from "./molecules/Timeline/Timeline";
+import {End} from "./molecules/End/End";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box>
-       <Jamsfy/>
-      </Box>
-    </ThemeProvider>
+  
+  <Jamsfy/>
+  <About/> 
+  <Timeline/>
+  <End/>
+  </ThemeProvider>
   );
 }
 export default App;

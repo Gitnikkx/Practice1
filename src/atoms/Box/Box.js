@@ -36,7 +36,7 @@ export const Box = styled.div`
     transition &&
     scCss`
         transition: ${transition};
-      `}
+      `} 
 
   ${({ whiteSpace }) =>
     whiteSpace &&
@@ -69,7 +69,11 @@ export const Box = styled.div`
     scCss`
           font-size: ${fontSize};
         `}
-
+  ${({fontFace }) =>
+        fontFace &&
+        scCss`
+              font-faily: ${fontFace};
+            `}
   &:hover {
     ${({ _hover }) => _hover && systemCss(_hover)}
   }
